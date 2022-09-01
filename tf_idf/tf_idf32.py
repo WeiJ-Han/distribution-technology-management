@@ -1,5 +1,5 @@
 import jieba.analyse
-news = open("news4.txt","r",encoding="utf-8").read()
+news = open("news3.txt","r",encoding="utf-8").read()
 tags = jieba.analyse.extract_tags(news, topK=10, withWeight=True)
 
 for tag in tags:
