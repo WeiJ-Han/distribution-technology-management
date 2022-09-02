@@ -1,0 +1,1 @@
+python social_distance_detector.py --input pedestrians.mp4 --output output2.avi
